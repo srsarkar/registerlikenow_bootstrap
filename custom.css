@@ -1,0 +1,335 @@
+/*link,visit, hover, active, focus*/
+
+* {
+	box-sizing: border-box;
+}
+
+/*we did this in class
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+article {
+	color: blue;
+}
+
+/* NAVIGATION*/
+
+nav {
+	background-color: yellow;
+	display: block;
+	/*margin: 8px 22px 8px 22px;*/
+	float: left;
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+nav #logo {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	margin: 2%;
+}
+
+nav ul {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+
+	top: 25%;
+	left: 1%;
+}
+
+nav li {
+	float: left;
+	margin: 2%;
+	font-family: 'Raleway', sans-serif;
+	/*display: inline-block;*/
+}
+
+nav > ul > li > a:link {
+	display: block;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+nav > ul > li> a:hover {
+	background-color: purple;
+}
+
+/*HOME PAGE*/
+
+#home {
+	background: url("../images/lion.jpg");
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#home h1 {
+	color: black;
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 74px;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	width: 100%;
+}
+
+#home h2 {
+	color: black;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 48px;
+	position: absolute;
+	text-align: center;
+	top: 30%; 
+	width: 100%;
+}
+
+#home a {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	padding: 2%;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+	text-align: center; 
+}
+
+.buttons {
+	position: relative;
+	top: 50%;
+	width: 1000px;
+	margin-left: 40%;
+}
+
+/*REGISTER PAGE*/
+
+#register {
+	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
+	background-color: white;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/*LEARN PAGE*/
+
+#learn {
+	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
+	background-color: red;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#learn #ryanOops {
+	z-index: 1;
+	display: inline-block;
+	float: bottom;
+}
+
+#learn h1 {
+	z-index: 2;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	height: 458px;
+	position: absolute;
+	text-align: right;
+	padding-right: 5%;
+	top: 150px;
+	width: 100%;
+}
+
+#learn #pvs_search {
+	z-index: 3;
+	display: inline-block;
+	position: relative;
+	margin-top: -50px;
+}
+
+/*ABOUT PAGE*/
+
+#about {
+	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
+	background-color: yellow;
+	font-family: 'Raleway', sans-serif;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#about h1 {
+
+	font-size: 48px;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 70px;
+	width: 100%;
+}
+
+#about img {
+	border: 1px solid black;
+	border-radius: 2%;
+	margin-top: 20%;
+	margin-left: 35%;
+}
+
+#about p {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	color: black;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/*REJECTED*/
+
+/* #home input {
+	font-family: 'Raleway', sans-serif;
+	width: 300px;
+	padding: 2%;
+	font-weight: bold;
+	font-size: 150%;
+	color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #999999;
+	border-radius: 10px;
+} */
+
+/* a {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	text-decoration: none;
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 10px;
+	text-align: center;
+
+	/*width: 100px;
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+} 
+
+.homebuttons {
+	margin-top: 100px;
+}
+
+#test1 {
+	background-color: purple;
+}
+
+#test2 {
+	background-color: yellow;
+	color: black;
+} */
+
+/*form {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+input.registerButton {
+	background-color: purple;
+}
+
+input.learnButton {
+	background-color: yellow;
+}*/
+
+/*#register article {
+	font-family: 'Raleway', sans-serif;
+	font-size: 74px;
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 150px;
+	width: 100%;
+}*/
+
+/*#register ul {
+	background-color: yellow;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;   /* removes bullets 
+	margin: 0;
+	padding: 0;
+}*/
+
+/*#register #thing {
+	position: relative;
+	float: right;
+	z-index: 2;
+	top: -200px;
+	left: -15%;
+	padding: 3%;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #E35454;
+}*/
+
+/* #register #ryan {
+	display: inline-block;
+	float: bottom;
+	width: 100%;
+	z-index: 1;
+
+}*/
