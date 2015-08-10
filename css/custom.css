@@ -144,10 +144,11 @@ nav > ul > li> a:hover {
 
 #register {
 	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
-	background-color: white;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
+	background: url("../images/ryan_register_notext.png") no-repeat;
+	background-size: auto 100%;
 	position: relative;
 }
 
@@ -164,10 +165,11 @@ nav > ul > li> a:hover {
 
 #learn {
 	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
-	background-color: red;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
+	background: url("../images/ryan_oops.png") no-repeat;
+	background-size: auto 100%;
 	position: relative;
 }
 
