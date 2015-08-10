@@ -37,60 +37,6 @@ article {
 	color: blue;
 }
 
-/* NAVIGATION*/
-
-nav {
-	background-color: yellow;
-	display: block;
-	/*margin: 8px 22px 8px 22px;*/
-	float: left;
-	width: 100%;
-	height: 15%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	vertical-align: middle;
-	overflow: hidden;
-}
-
-nav #logo {
-	float: left;
-	display: inline;
-	vertical-align: middle;
-	margin: 2%;
-}
-
-nav ul {
-	position: relative;
-	display: inline;
-	list-style-type: none;
-	margin: 20px;
-	padding: 0;
-
-	top: 25%;
-	left: 1%;
-}
-
-nav li {
-	float: left;
-	margin: 2%;
-	font-family: 'Raleway', sans-serif;
-	/*display: inline-block;*/
-}
-
-nav > ul > li > a:link {
-	display: block;
-	width: 120px;
-	text-align: center;
-	padding: 4px;
-	text-decoration: none;
-}
-
-nav > ul > li> a:hover {
-	background-color: purple;
-}
-
 /*HOME PAGE*/
 
 #home {
@@ -99,31 +45,24 @@ nav > ul > li> a:hover {
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
+	display: inline-block;
 }
 
 #home h1 {
-	color: black;
+	color: white;
 	font-family: 'Rock Salt', sans-serif;
-	font-size: 74px;
-	height: 458px;
-	position: absolute;
+	font-size: 5em;
 	text-align: center;
-	top: 10%;
-	width: 100%;
 }
 
 #home h2 {
 	color: black;
 	font-family: 'Amatic SC', sans-serif;
-	font-size: 48px;
-	position: absolute;
-	text-align: center;
-	top: 30%; 
-	width: 100%;
+	font-size: 4em;
+	text-align: center; 
 }
 
 #home a {
-	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 	padding: 2%;
 	border: 5px solid black;
@@ -134,9 +73,7 @@ nav > ul > li> a:hover {
 }
 
 .buttons {
-	position: relative;
 	top: 50%;
-	width: 1000px;
 	margin-left: 40%;
 }
 
@@ -152,7 +89,22 @@ nav > ul > li> a:hover {
 	position: relative;
 }
 
+#register h1, h3 {
+	display: inline-block;
+	color: black;
+	font-family: 'Rock Salt', sans-serif;
+	position: relative;
+	top: 10%;
+	margin: 1%;
+}
 
+#register h1 {
+	font-size: 4em;
+}
+
+#register h3 {
+	font-size: 1em;
+}
 
 
 
@@ -165,6 +117,7 @@ nav > ul > li> a:hover {
 
 #learn {
 	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
+	display: inline-block;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
@@ -173,37 +126,23 @@ nav > ul > li> a:hover {
 	position: relative;
 }
 
-#learn #ryanOops {
-	z-index: 1;
-	display: inline-block;
-	float: bottom;
-}
-
 #learn h1 {
-	z-index: 2;
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	height: 458px;
-	position: absolute;
-	text-align: right;
-	padding-right: 5%;
-	top: 150px;
-	width: 100%;
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 2.5em;
+	padding: 1%;
 }
 
 #learn #pvs_search {
-	z-index: 3;
-	display: inline-block;
-	position: relative;
-	margin-top: -50px;
+	margin-top: 10%;
+	margin-left: 60%;
 }
 
 /*ABOUT PAGE*/
 
 #about {
 	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
+	display: inline-block;
 	background-color: yellow;
-	font-family: 'Raleway', sans-serif;
 	height: 1000px;
 	margin: 0 auto;
 	width: 100%;
@@ -211,33 +150,32 @@ nav > ul > li> a:hover {
 }
 
 #about h1 {
-
-	font-size: 48px;
-	height: 458px;
-	position: absolute;
-	text-align: center;
-	top: 70px;
-	width: 100%;
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 2em;
+	padding: 2%;
 }
 
 #about img {
 	border: 1px solid black;
 	border-radius: 2%;
-	margin-top: 20%;
+	margin-top: 3%;
 	margin-left: 35%;
 }
 
 #about p {
-	display: inline-block;
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: .75em;
 	color: black;
-	margin-top: 10%;
+	margin-top: 2%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-/*REJECTED*/
+/* *********************
+
+REJECTED
+
+*/
 
 /* #home input {
 	font-family: 'Raleway', sans-serif;
@@ -335,3 +273,57 @@ input.learnButton {
 	z-index: 1;
 
 }*/
+
+/* NAVIGATION
+
+nav {
+	background-color: yellow;
+	display: block;
+	/*margin: 8px 22px 8px 22px;
+	float: left;
+	width: 100%;
+	height: 15%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+nav #logo {
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	margin: 2%;
+}
+
+nav ul {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+
+	top: 25%;
+	left: 1%;
+}
+
+nav li {
+	float: left;
+	margin: 2%;
+	font-family: 'Raleway', sans-serif;
+	/*display: inline-block;
+}
+
+nav > ul > li > a:link {
+	display: block;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+nav > ul > li> a:hover {
+	background-color: purple;
+} */
