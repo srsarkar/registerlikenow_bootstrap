@@ -178,11 +178,10 @@
 	padding: 2%;
 }
 
-#about img {
+.img-responsive {
 	border: 1px solid black;
 	border-radius: 2%;
 	margin-top: 3%;
-	margin-left: 35%;
 }
 
 #about p {
