@@ -1,7 +1,9 @@
 /*link,visit, hover, active, focus*/
 
 * {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
+	margin: 0;
+	padding: 0;
 }
 
 /*we did this in class
@@ -27,23 +29,42 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}*/
 
-body {
-	margin: 0;
-	padding: 0;
-	width: auto;
+.parallax {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-perspective: 1px;
+	perspective: 1px;
 }
 
-article {
-	color: blue;
+.parallax__layer {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 100vh 0;
+}
+.parallax__layer_back {
+	-webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.parallax__layer_base1 {
+	-webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px);
+}
+
+.page {
+	height: 100%;
+	margin: 0 auto;
+	width: 100vw;
 }
 
 /*HOME PAGE*/
 
 #home {
-	background: url("../images/lion.jpg");
-	height: 1000px;
-	margin: 0 auto;
-	width: 100%;
+	background: url("../images/booth.jpg") no-repeat;
+	background-size: 100% auto;
 	position: relative;
 	display: inline-block;
 }
@@ -72,7 +93,7 @@ article {
 	text-align: center; 
 }
 
-.buttons {
+#home .buttons {
 	top: 50%;
 	margin-left: 40%;
 }
@@ -81,11 +102,9 @@ article {
 
 #register {
 	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
-	height: 1000px;
-	margin: 0 auto;
-	width: 100%;
+
 	background: url("../images/ryan_register_notext.png") no-repeat;
-	background-size: auto 100%;
+	background-size: 100% auto;
 	position: relative;
 }
 
@@ -125,13 +144,10 @@ article {
 
 #learn {
 	/*background: url("../images/test.jpg") 50% 0 no-repeat;*/
-	display: inline-block;
-	height: 1000px;
-	margin: 0 auto;
-	width: 100%;
 	background: url("../images/ryan_oops.png") no-repeat;
-	background-size: auto 100%;
+	background-size: 100% auto;
 	position: relative;
+	display: inline-block;
 }
 
 #learn h1 {
@@ -149,12 +165,11 @@ article {
 
 #about {
 	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
-	display: inline-block;
+
 	background-color: rgba(255, 244, 62, 0.3);
-	height: 1000px;
-	margin: 0 auto;
-	width: 100%;
+	background-size: 100% auto;
 	position: relative;
+	display: inline-block;
 }
 
 #about h1 {
