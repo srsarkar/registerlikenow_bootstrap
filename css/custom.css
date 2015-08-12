@@ -29,6 +29,12 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}*/
 
+.page {
+	height: 100%;
+	margin: 0 auto;
+	width: 100vw;
+}
+
 .parallax {
 	height: 100vh;
 	overflow-x: hidden;
@@ -50,15 +56,13 @@
     transform: translateZ(0);
 }
 .parallax__layer_base1 {
+	background: url("../images/ryan_register_notext.png") no-repeat;
+	background-size: 100% auto;
+	position: relative;
 	-webkit-transform: translateZ(-1px);
     transform: translateZ(-1px);
 }
 
-.page {
-	height: 100%;
-	margin: 0 auto;
-	width: 100vw;
-}
 
 /*HOME PAGE*/
 
@@ -102,10 +106,6 @@
 
 #register {
 	/*background: url("../images/lion.jpg") 50% 0 no-repeat;*/
-
-	background: url("../images/ryan_register_notext.png") no-repeat;
-	background-size: 100% auto;
-	position: relative;
 }
 
 #register h1, h3 {
@@ -165,7 +165,6 @@
 
 #about {
 	/*background: url("../images/aboutBG.jpg") 50% 0 no-repeat;*/
-
 	background-color: rgba(255, 244, 62, 0.3);
 	background-size: 100% auto;
 	position: relative;
