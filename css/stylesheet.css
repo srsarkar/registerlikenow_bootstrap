@@ -1,3 +1,51 @@
+
+h1 {
+	font-family: "Rock Salt", sans-serif;
+	font-size: 4em;
+}
+
+h3 {
+	font-family: "Rock Salt", sans-serif;
+	font-size: 1em;
+}
+
+
+
+#home {
+	background-image: url("../images/booth.jpg");
+}
+
+#home h1 {
+	padding-top: 30%;
+}
+
+#home h2 {
+	font-family: "Amatic SC", sans-serif;
+	font-size: 4em;
+	padding-top: 10%;
+}
+
 .btn {
 	font-family: "Raleway", sans-serif;
+}
+
+#register {
+	background-image: url("../images/ryan_register.png");
+}
+
+#register h2 {
+
+}
+
+#learn {
+	background-image: url("../images/ryan_oops.png");
+}
+
+#about {
+	background-color: rgba(255, 244, 62, 0.3);
+}
+
+.page {
+	height: 100vh;
+	width: 100vw;
 }

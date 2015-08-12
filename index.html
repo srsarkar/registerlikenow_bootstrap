@@ -13,7 +13,7 @@
 		
 	</head>
 
-
+	<body>
 	<div class="container-fluid">
 		<div class="parallax">
 <!--"data-" treated as storage area for private data all we need to do is control the speed of the background images, so data-type="background" and data-speed="10" are key attributes that specify the parameters-->
@@ -30,37 +30,45 @@
 
 <!--HOME PAGE-->
 			<div class="parallax_layer parallax_layer_back page" id="home">
-				<!--<section id="home" data-type="background" data-speed="10">-->
-					<div class="row">
-						<div class="col-lg-3"></div>
-						<div class="col-lg-6">
+				
+					<!--<section id="home" data-type="background" data-speed="10">-->
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-2 col-xs-1"></div>
+					<div class="col-lg-6 col-md-6 col-sm-8 col-xs-10">
 							<h1>Register to vote</h1>
-						</div>
-						<div class="col-lg-3"></div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-2 col-xs-1"></div>	
+				</div>
+
+				<div class="row">
+					<div class="col-lg-5 col-md-4 col-sm-3 col-xs-2"></div>
+					<div class="col-lg-2 col-md-3 col-sm-3 col-xs-8">
+						<h2>...like, now</h2>
+					</div>
+					<div class="col-lg-5 col-md-4 col-sm-3 col-xs-2"></div>
+				</div>
+
+					<!--BUTTONS-->
+				<div class="row">
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-2"></div>
+
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+						<p><a href="#register" class="btn btn-danger btn-lg">REGISTER</a></p>
 					</div>
 
-					<div class="row">
-						<div class="col-lg-4"></div>
-						<div class="col-lg-4">
-							<h2>...like, now</h2>
-						</div>
-						<div class="col-lg-4"></div>
+					<div class="col-lg-1 col-md-2 col-sm-1 col-xs-1 col-xs-offset-1">
+						<p><a href="#learn" class="btn btn-primary btn-lg">LEARN</a></p>
 					</div>
 
-					<div class="buttons">
-						<div class="row">
-							<div class="col-lg-2 col-xs-2">
-								<p><a href="#register" class="btn btn-danger">REGISTER</a></p>
-							</div>
-							<div class="col-lg-4 col-xs-4"></div>
-							<div class="col-lg-2 col-xs-2">
-								<p><a href="#learn" class="btn btn-primary">LEARN</a></p>
-							</div>
-							<div class="col-lg-4 col-xs-4"></div>
-						</div>
-					</div>
-				<!--</section>-->
-			</div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+				</div>
+		</div>
+
+
+					
+				<!--</section>-->	
+			</div>	  	
 
 	<!--REGISTER PAGE-->
 			<div class="parallax_layer parallax_layer_base1 page" id="register">
@@ -71,6 +79,12 @@
 						</div>
 						<div class="col-md-8 col-xs-7">
 							<h3>&#40Or whatever you identify as on the gender spectrum&#41</h3>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4 col-xs-5">
+							<p class="lead">We're not in bed together so I know you're not doing anything important right now...</p>
 						</div>
 					</div>
 						<!--<div id="logo" class="menuUp">
@@ -85,8 +99,9 @@
 			</div>
 
 
+
 	<!--LEARN PAGE-->
-			<div class="parallax_layer parallax_layer_base2 page">
+			<div class="parallax_layer parallax_layer_base2 page" id="learn">
 				<!--<section id="learn" data-type="background" data-speed="2">-->
 					<div class="row">
 						<h1>I can find out about <i>my</i> candidates too?!</h1>
@@ -101,7 +116,7 @@
 			</div>
 
 	<!--ABOUT PAGE-->
-			<div class="parallax layer parallax_layer_base3 page">
+			<div class="parallax layer parallax_layer_base3 page" id="about">
 				<!--<section id="about" data-type="background" data-speed="2">-->
 					<div class="row">
 						<h1>About the freak behind this shebang</h1>
@@ -120,7 +135,9 @@
 					</div>
 				<!--</section>-->
 			</div>
+
 		</div>
 	</div>
-	</body>
+
+</body>
 </html>
